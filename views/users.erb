@@ -1,0 +1,13 @@
+<h1>YOU ARE NOW A USER!</h1>
+
+<% @user.each do |user| %>   
+First Name: <%= user.fname %>
+<br>
+Last Name: <%= user.lname %>
+<br>
+Username: <%= user.username %>
+<br>
+Password: <%= user.password %>
+<br>
+<br>
+<% end %>
